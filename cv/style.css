@@ -1,0 +1,128 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background: rgb(240, 236, 236);
+    color: rgb(9, 10, 10);
+}
+img{
+    max-width: 100%;
+}
+.icon{
+    fill:currentColor;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,o.05);
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+
+section:last-child{
+    border-bottom: none;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img.avatar{
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 180px;
+}
+.my-name{
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+
+.links-item{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.link-item{
+    margin-right: 6px;
+}
+
+/* Doswiadczenie */
+
+.job{
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgrey;
+}
+.job:last-child{
+    border-bottom: none;
+}
+/* edukacja */
+.job-title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.job-company{
+    font-weight: bold;
+}
+.job-container{
+
+    font-weight: bold;
+    line-height: 5;
+}
+/* umiejetnosci */
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    margin-bottom: 8px;
+    padding: 24px 0px;
+
+}
+
+.skills-container ul{
+    margin-left: -28px;
+    list-style-type: disc;
+}
+/* zainteresowania */
+
+.interests-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -50px;
+}
+
