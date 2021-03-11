@@ -56,17 +56,14 @@ img.avatar{
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    max-width: 220px;
+    max-width: 180px;
 }
 .my-name{
     font-size: 48px;
     line-height: 1;
+    margin-bottom: 20px;
 }
-.my-title{
-    font-size: 24px;
-    font-weight: 300;
-    color: rgb(84, 93, 99);
-}
+
 .links{
     display: flex;
     margin: 10px 0 20px 0;
@@ -112,13 +109,13 @@ img.avatar{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     padding: 24px 0px;
 
 }
 
 .skills-container ul{
-    margin-left: -20px;
+    margin-left: -28px;
     list-style-type: disc;
 }
 /* zainteresowania */
@@ -126,6 +123,7 @@ img.avatar{
 .interests-container{
     display: flex;
     justify-content: space-evenly;
+    margin-left: -50px;
 }
 
 
