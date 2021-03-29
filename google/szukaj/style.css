@@ -182,7 +182,19 @@ html, body {
     right: 180px;
     bottom: 18px;
 }
+#dolnaczesc {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: 135px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
 
+#dolnaczesc li {
+    padding-right: 30px;
+}
 
 #opcje {
     width: 100%;
@@ -371,24 +383,12 @@ html, body {
     left: 0px;
     bottom: 0px;
     width: 100%;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'arial';
     color: rgb(85, 85, 85);
 }
 
-#dolnaczesc {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-top: 0px;
-    margin-left: 135px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-}
 
-#dolnaczesc li {
-    padding-right: 30px;
-}
 
 #footerlocation {
     display: flex;
