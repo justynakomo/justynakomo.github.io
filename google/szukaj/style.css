@@ -65,7 +65,7 @@ div.home  {
 }
 
 .home .search {
-	flex: 1; /*każdy element zajmuje 1 jednostkę przestrzeni wzdłuż osi*/
+	flex: 1; 
 }
 
 .home .search .logo {
@@ -91,10 +91,7 @@ div.home  {
     margin: -1px auto;
 }
 
-/* .home .search_elements .search_input:hover {
-	border: 1px solid #fff;
-	box-shadow: 0 0 5px rgba(172, 172, 172, 0.822);
-} */
+
 
 .home .search_elements .search_icon {
 	width: 20px;
